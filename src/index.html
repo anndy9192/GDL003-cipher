@@ -6,21 +6,48 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body style="background-color:#D2D0F3">
+    <h1>
+      <center>
+      <div id="titulo">Tu diario secreto</div>
+        </center>
+      </h1>
 
-    <h1> <strong><center> Tu diario secreto </center></strong></h1>
+    <center>
+      <div id="explicacion">
+        <p>
+          <align>
+      Aqui podras escribir un diario de tal manera que nadie pueda saber lo que has escrito mas que tu. <br> Solo deberas ingresar el texto y el numero de desplazamientos que querras para cada letra y preciona "Codificar". En caso de que ya lo tengas codificado y quieras decodificarlo, solo ingresa el texto, el numero de desplazamientos en que lo tenias codificado y preciona "Decodificar"
+          </align>
+        </p>
+      </div>
 
-<center><div id="explicacion"style="width: 900px; height: 300px;"><h2><align>  Aqui podras escribir un diario de tal manera que nadie pueda saber lo que has escrito mas que tu. <br> Solo deberas ingresar el texto y el numero de desplazamientos que querras para cada letra y preciona "Codificar". En caso de que ya lo tengas codificado y quieras decodificarlo, solo ingresa el texto, el numero de desplazamientos en que lo tenias codificado y preciona "Decodificar"</h2></div></center>
 
-    <div><center><textarea name="texto" cols="100" rows="20" placeholder="Inicia tu diario"></textarea> <br><br>
-      <div> <textarea name="desplazamientos" placeholder="No de desplazamientos"></textarea>
-  </center></div></div>
+      <div><textarea name="texto" id="texto" style="width: 900px; height: 300px;" placeholder="Inicia tu diario"></textarea> <br><br></div>
 
-  <center><input type="button" class="decode" value="Codificar" id="codificar"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-  <input type="button" class="decode" value="Decodificar" id="decodificar"></center>
-<br><br><br><br>
-<center><input type="button" class=Inicio value="Inicio"></center>
+        <div> <textarea name="desplazamientos" id="nDesplazamientos" placeholder="No de desplazamientos"
+          ></textarea>
+  </div>
+  </center>
+<br>
+<center>
+  <button type="submit" id="btnCod" class="decode">Codificar</button>
+  &nbsp &nbsp &nbsp &nbsp
+  <button type="submit" id="btnDecod" class="decode">Decodificar</button>
+  <br><br><br>
 
-    <script src="cipher.js"></script>
+  <div> <textarea id= "resuelto" style="width: 900px; height: 300px;" name="texto" ></textarea> <br><br>
+  </div>
+</center>
+<br><br><br>
+  <!--
+  <button type="button" onclick="inicio()" id="btnInicio">Inicio</button>
+-->
+<!--
+<button type="button" id="clearbutton"> Limpiar</button>
+</center>
+-->
+
     <script src="index.js"></script>
+    <script src="cipher.js"></script>
   </body>
 </html>

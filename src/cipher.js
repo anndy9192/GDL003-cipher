@@ -1,12 +1,25 @@
 window.cipher = {
-  function encode(offset, string) {
-    for(let i = 0 ; i < string.length ; i++){
-      console.log(codificado)
-      codificado=codificado + String.fromCharCode (( string.charCodeAt(i) - 65 + offset ) % 26 + 65)
-    }
+  encode: (offset, string) => {
+    string=string.toUpperCase();
 
-  }
+
+    let codificado="";
+    for(let i = 0 ; i < string.length ; i++){
+      codificado=codificado + String.fromCharCode (( string.charCodeAt(i) - 65 + parseInt(offset) ) % 26 + 65);
+    }
+    return codificado;
+  },
+
+  decode: (offset, string) => {
+    string=string.toUpperCase();
+
+    let decodificado="";
+    for(let i = 0 ; i < string.length ; i++){
+      decodificado=decodificado + String.fromCharCode (( string.charCodeAt(i) + 65 - parseInt(offset) ) % 26 + 65);
+    }
+    return decodificado;
+  },
+
+
   // ...
 };
-
-module.exports = window.cipher;
