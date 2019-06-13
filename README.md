@@ -13,11 +13,12 @@ El diseño fue pensado solo en chicas, es por eso que se tomaron colores tan lla
 
 Los paso basicos para poder utilizar el programa seran los siguientes:
 
-##### Codoficar
+##### Codificar
 1. Ingresa el texto que deseas decifrar en la cajita * *Inicia tu diario* *
 2. Ingresa el numero que eligiras para el desplazamiento y colocalo dentro de la cajita * *N de desplazamientos* *
 3. Hacer click en el boton **codificar**
 
-#### Decodificar
+##### Decodificar
 1. Teniendo ya un texto codificado, simplemente escribelo o si lo tienes guardado, copialo y pegalo dentro de la cajita* *Inicia tu diario* *
 2. Ingresa el numero de desplazamientos que utilizaste cuando lo codificaste en la cajita de * *N de desplazamientos* *
+3. Hacer click en el boton **decodificar**
