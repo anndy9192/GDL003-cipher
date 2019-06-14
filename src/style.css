@@ -14,12 +14,12 @@ h1 {
   }
 
 p {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 28px;
+  font-family: 'Rancho';
+  font-size: 47px;
   letter-spacing: -0.6px;
   word-spacing: 1.6px;
-  color: #660099;
-
+  color: #875EB9;
+  text-shadow: 1px 1px 1px white;
   font-weight: 700;
   text-decoration: none;
   font-style: italic;
@@ -46,33 +46,33 @@ p {
     border: 2px solid #C218A0;
 }
 
+#btnInicio {
+text-decoration: none;
+padding: 10px;
+font-weight: 600;
+font-size: 20px;
+color: #ffffff;
+background-color: #D130EE;
+border-radius: 6px;
+border: 2px solid #530D5F;
+}
+
 #texto{
-  font-family: "Comic Sans MS";
+  font-family: 'Sacramento', cursive;
   color: #FF80EA;
   border: 10px dotted #FFFF00;
   border-radius: 19px 19px 19px 19px;
-  font-size: 150%;
+  font-size: 50px;
   box-shadow: 2px 2px 7px 1px #FFBF00;
 }
 
-#btnInicio{
-  text-decoration: none;
-  padding: 10px;
-  font-weight: 600;
-  font-size: 20px;
-  color: #ffffff;
-  background-color: #D130EE;
-  border-radius: 6px;
-  border: 2px solid #530D5F;
-
-}
 
 #resuelto{
-  font-family: "Comic Sans MS";
+  font-family: 'Sacramento', cursive;
   color: #FF80EA;
   border: 10px dotted #FFFF00;
   border-radius: 14px 14px 14px 14px;
-  font-size: 150%;
+  font-size: 50px;
   box-shadow: 2px 2px 7px 1px #FFBF00;
 }
 #nDesplazamientos{
